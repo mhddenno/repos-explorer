@@ -1,0 +1,18 @@
+version: "3.7"
+
+services:
+  frontend:
+    build: frontend_service
+    ports:
+      - 8501:8501
+    depends_on:
+      - backend
+    volumes:
+      - ./frontend_service:/app/stream_lit
+
+  backend:
+    build: backend_service
+    ports:
+      - 8000:8000
+    volumes:
+      - ./backend_service:/app
