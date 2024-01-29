@@ -63,7 +63,7 @@ To view logs, navigate to `backend_service/basic.log`
 
 ## For local development
 
-### Requiremnets 
+### Requirements 
 `python 3.10.*`
 
 To set the correct Python version locally, consider using `pyenv` [link](https://github.com/pyenv/pyenv)
