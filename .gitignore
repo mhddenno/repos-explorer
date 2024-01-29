@@ -1,0 +1,11 @@
+### Python ###
+# Byte-compiled / optimized / DLL files / tests
+backend_service/__pycache__
+backend_service/basic.log
+.python-version
+backend_service/basic.log
+backend_service/.pytest_cache
+backend_service/.coverage
+
+# Environments
+venv
